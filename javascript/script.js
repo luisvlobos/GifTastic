@@ -4,7 +4,7 @@ var topics = ["Soccer", "Golf", "Tennis", "Football"];
 function displaySportGifs() {
     $("#sports-view").empty();
     var sport = $(this).attr("data-name");
-    var queryURL = "http://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=eGV3iEFmo7rXMBIFOBJolpk8RdNU5xDS&limit=10";
+    var queryURL = "https://api.giphy.com/v1/gifs/search?q=" + sport + "&api_key=eGV3iEFmo7rXMBIFOBJolpk8RdNU5xDS&limit=10";
 
 
     $.ajax({
